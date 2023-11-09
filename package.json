@@ -1,5 +1,5 @@
 {
-    "name": "template-nest",
+    "name": "nest-graphql-api",
     "version": "0.0.1",
     "scripts": {
         "build": "nest build",
@@ -16,11 +16,21 @@
         "test:e2e": "jest --config ./test/jest-e2e.json"
     },
     "dependencies": {
+        "@apollo/server": "^4.9.5",
+        "@nestjs/apollo": "^12.0.10",
         "@nestjs/common": "^10.0.0",
         "@nestjs/core": "^10.0.0",
+        "@nestjs/graphql": "^12.0.10",
+        "@nestjs/mongoose": "^10.0.2",
         "@nestjs/platform-express": "^10.0.0",
+        "@nestjs/typeorm": "^10.0.0",
+        "graphql": "^16.8.1",
+        "mongodb": "^6.2.0",
+        "mongoose": "^8.0.0",
         "reflect-metadata": "^0.1.13",
-        "rxjs": "^7.8.1"
+        "rxjs": "^7.8.1",
+        "typeorm": "^0.3.17",
+        "uuid": "^9.0.1"
     },
     "devDependencies": {
         "@nestjs/cli": "^10.0.0",
