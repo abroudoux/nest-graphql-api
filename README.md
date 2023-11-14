@@ -1,1 +1,1 @@
-# NestJs Template
+# nest-graphql-api
